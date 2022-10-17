@@ -12,9 +12,13 @@ PODS:
 DEPENDENCIES:
   - PocketSocket
 
+SPEC REPOS:
+  trunk:
+    - PocketSocket
+
 SPEC CHECKSUMS:
   PocketSocket: 9c6867d66fb4f962af96b9b07f4b45bb561b2c2a
 
 PODFILE CHECKSUM: bc3653e66efac8878c79fd46a567232d27b5cf83
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.11.3

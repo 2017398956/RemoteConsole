@@ -58,7 +58,10 @@
     });
 
     var ipAddress = getUrlParameter('ip');
-    var wsUri ="ws://" + ipAddress + ":8080"; 
+    if(ipAddress == null || ipAddress.length == 0){
+        ipAddress = "localhost";
+    }
+    var wsUri ="ws://" + ipAddress + ":8081"; 
     var output;  
     
     function init() { 
