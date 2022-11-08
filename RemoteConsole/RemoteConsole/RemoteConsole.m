@@ -44,7 +44,6 @@
 
 - (void)startServer{
     [_server start];
-    
 }
 
 - (void)stopServer {
